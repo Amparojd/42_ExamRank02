@@ -16,10 +16,11 @@ int main(int argc, char **argv)
 {
     int len;
 
-    len = ft_strlen(argv[1]); 
+   
     
     if (argc == 2)
-    {
+    { 
+        len = ft_strlen(argv[1]) - 1;
         while (len >= 0)
         {
             write(1, &argv[1][len], 1);
