@@ -28,7 +28,6 @@ typedef struct      s_list
     void            *data;
 }                   t_list;
 
-#include "ft_list.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
